@@ -5,9 +5,6 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: 300;
-  background-image: url("../img/background.jpg");
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 a:link, a:visited {
@@ -43,10 +40,6 @@ h3 {
 }
 
 main {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 30%;
   opacity: 0.9;
   background-image: url("../img/ricepaper_v3.png");
 }
@@ -61,9 +54,7 @@ header {
 }
 
 #head {
-  font-size: 120%;
-  color: #EEEEEE;
-  margin: 0;
+  display: none;
 }
 
 section {
@@ -107,5 +98,30 @@ li {
 }
 
 
+@media screen and (min-width: 992px) {
+  body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 18px;
+  }
 
+  #head {
+  font-size: 120%;
+  color: #EEEEEE;
+  margin: 0;
+  }
+
+  main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 30%;
+  }
+
+  nav {
+    top: 10px;
+    right: 10px;
+  }
+}
 
