@@ -65,6 +65,10 @@ section {
   background-color: rgba(207, 205, 140, 0.5);
 }
 
+nav:hover, nav:focus {
+  color: #00E;
+}
+
 dt {
   font-weight: 400;
 }
@@ -97,6 +101,10 @@ li {
   margin-right: 1em;
 }
 
+nav:link, nav:visited {
+  color: #55E;
+}
+
 
 @media screen and (min-width: 992px) {
   body {
@@ -125,4 +133,3 @@ li {
     right: 10px;
   }
 }
-
