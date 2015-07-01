@@ -3,7 +3,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   background-image: url("../img/background.jpg");
   background-size: cover;
@@ -94,5 +94,18 @@ footer {
   font-size: 80%;
   text-align: right;
 }
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+
 
 
