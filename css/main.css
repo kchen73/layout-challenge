@@ -7,6 +7,11 @@ body {
   font-weight: 300;
 }
 
+.container-fluid {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 a:link, a:visited {
   text-decoration: none;
   color: #0000AA;
@@ -65,7 +70,7 @@ section {
   background-color: rgba(207, 205, 140, 0.5);
 }
 
-nav:hover, nav:focus {
+#bar:hover, #bar:focus {
   color: #00E;
 }
 
@@ -101,7 +106,7 @@ li {
   margin-right: 1em;
 }
 
-nav:link, nav:visited {
+#bar:link, #bar:visited {
   color: #55E;
 }
 
@@ -115,17 +120,17 @@ nav:link, nav:visited {
   }
 
   #head {
-  font-size: 120%;
-  color: #EEEEEE;
-  margin: 0;
-  display: inline;
+    font-size: 120%;
+    color: #EEEEEE;
+    margin: 0;
+    display: inline;
   }
 
   main {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 30%;
   }
 
   nav {
